@@ -1,6 +1,6 @@
 #  Astra-Chem Fire Containment (A* Search)
 
-## 📌 Overview
+##  Overview
 
 This project implements an **A* Search Algorithm** to navigate an Autonomous Firefighting Robot (AFR) through a hazardous environment.
 
@@ -13,17 +13,17 @@ The robot must:
 
 ---
 
-## ⚙️ Features
+##  Features
 
-* ✅ A* Search implementation from scratch
-* ✅ Multi-objective goal handling (must visit W before G)
-* ✅ Dynamic constraint (edge collapse based on time)
-* ✅ Resource management (armor depletion & repair at B)
-* ✅ Optimal path calculation
+*  A* Search implementation from scratch
+*  Multi-objective goal handling (must visit W before G)
+*  Dynamic constraint (edge collapse based on time)
+*  Resource management (armor depletion & repair at B)
+*  Optimal path calculation
 
 ---
 
-## 🧠 State Representation
+##  State Representation
 
 Each state is defined as:
 
@@ -33,7 +33,7 @@ Each state is defined as:
 
 ---
 
-## 🚧 Constraints
+##  Constraints
 
 * Armor decreases with movement
 * Robot must collect water before reaching goal
@@ -42,7 +42,7 @@ Each state is defined as:
 
 ---
 
-## 📊 Output Example
+##  Output Example
 
 ```
 Final Path: S → A → W → C → G
@@ -53,14 +53,14 @@ Nodes Expanded: ~6
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * Python 3
 * Heap Queue (Priority Queue)
 
 ---
 
-## 📎 How to Run
+##  How to Run
 
 ```bash
 python main.py
@@ -68,7 +68,7 @@ python main.py
 
 ---
 
-## 📚 Course Info
+##  Course Info
 
 * Course: Artificial Intelligence (CSC-411)
 * Lab Task: A* Search Implementation
