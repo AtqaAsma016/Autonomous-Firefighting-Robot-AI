@@ -1,4 +1,4 @@
-# 🔥 Astra-Chem Fire Containment (A* Search)
+#  Astra-Chem Fire Containment (A* Search)
 
 ## 📌 Overview
 
